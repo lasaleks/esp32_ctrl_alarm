@@ -1,0 +1,17 @@
+idf_component_register(
+SRCS "main.cpp" 
+"ui/ui.c" 
+"ui/ui_helpers.c"
+"ui/screens/ui_Screen1.c" 
+"ui/screens/ui_Screen2.c" 
+"ui/fonts/ui_font_Display16.c" 
+"ui/fonts/ui_font_Display24.c" 
+"ui/fonts/ui_font_Display40.c" 
+"ui/fonts/ui_font_Display90.c" 
+"ui/images/ui_img_compass_png.c"
+"ui/images/ui_img_speedbg_png.c"
+"ui/images/ui_img_speedfg_png.c"
+INCLUDE_DIRS "" "ui"
+REQUIRES LovyanGFX lvgl
+)
+
